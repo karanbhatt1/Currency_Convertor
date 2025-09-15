@@ -6,7 +6,7 @@ A modern and responsive currency converter application built with React. This to
 
 ## Live Demo
 
-**(Link to your deployed application here)**
+**https://karanbhatt1.github.io/Currency_Convertor/**
 
 ## Features
 
