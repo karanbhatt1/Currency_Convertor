@@ -25,7 +25,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('currencyconvertor.png')`,
+        backgroundImage: `url("./currencyconvertor.png")`,
       }}
     >
         
