@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InputBox from "./components/InputBox";
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
+import bg from "./assets/currencyconvertor.png";
 
 function App() {
   const [amount, setAmount] = useState(0);
@@ -25,7 +26,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url("./currencyconvertor.png")`,
+        backgroundImage: `URL(${bg})`,
       }}
     >
         
